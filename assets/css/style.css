@@ -124,10 +124,10 @@ body{
       }
     
       .pic {
-        height: 450px;
-       width: 425px;
-       padding: 10px;
-       padding-left: 135px; 
+        height: 100%;
+       width: 100%;
+       padding: 15px;
+       
        
     }    
      .container {
@@ -136,27 +136,4 @@ body{
       
     }
   
-}
-@media (max-width: 500px){
-    .pic {
-        height: 450px;
-       width: 425px;
-       padding: 10px;
-       padding-left: 50px; 
-}
-}
-@media (max-width: 450px){
-    .pic {
-        height: 450px;
-       width: 100%;
-       padding: 15px;
-        
-}
-}
-@media (max-width: 400px){
-    .pic {
-        height: 450px;
-       width: 100%;
-       padding: 10px;
-}
 }
