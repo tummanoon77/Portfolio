@@ -11,12 +11,12 @@ body{
 /*About*/
 .pic {
     height: 425px;
-   width: auto;
+   width: 350px;
    padding: 10px;
 }
 .port {
     height: 350px;
-    width: 400px;
+    width: 100%;
     
 }
 .container {
@@ -50,7 +50,7 @@ body{
       width: auto;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-gap: 1.5rem;
+      
       margin-bottom: 2rem;
       margin-top: 2rem;
       padding: 0px;
@@ -114,23 +114,42 @@ body{
     font-size: 20px;
 }
 
-
-  @media (max-width: 700px){
+.footer h2 span {
+    color: #b50d10;
+}
+  @media (max-width: 600px){
     .card{
           display: block;
           padding: 0px;
       }
-    .port{
-        height: 350px;
-        width: 350px;
-    }
-        
+    
+      .pic {
+        height: 450px;
+       width: 425px;
+       padding: 10px;
+       padding-left: 135px; 
+       
+    }    
      .container {
         padding: 0;
         overflow: auto;
       
     }
-    
   
-    }
+}
+@media (max-width: 500px){
+    .pic {
+        height: 450px;
+       width: 425px;
+       padding: 10px;
+       padding-left: 50px; 
+}
+}
 
+@media (max-width: 400px){
+    .pic {
+        height: 450px;
+       width: 100%;
+       padding: 10px;
+}
+}
