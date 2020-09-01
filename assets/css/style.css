@@ -3,6 +3,23 @@
     padding: 0;
     margin: 0;
 }
+.navbar-toggler {
+    background:lightblue;
+    color: black !important;
+    
+  }
+  
+.navbar-toggler:hover {
+    background: #ffcd32;
+    color: black !important;
+    
+  }
+
+#navbarNav{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 
 body{
     font-family: Quicksand; 
@@ -27,10 +44,9 @@ body{
   
 }
 #header {
-  
-    align-items: center;
+     
     text-align: center;
-    justify-content: center;
+    
     
 }
 .heading-big {
@@ -102,7 +118,6 @@ body{
     transition: .7s;
   }
   
-
   .footer {
     padding: 30px;
     clear: both;
@@ -117,6 +132,7 @@ body{
 .footer h2 span {
     color: #b50d10;
 }
+  
   @media (max-width: 600px){
     .card{
           display: block;
