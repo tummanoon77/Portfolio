@@ -26,6 +26,10 @@ body{
     background: #f9f9f9f9;
 }
 /*About*/
+#about {
+    
+    padding-top: 100px;
+}
 .pic {
     height: 425px;
    width: 350px;
@@ -85,7 +89,17 @@ body{
   button{
     cursor: pointer;  
   }
+
+  /*portfolio*/
+  #portfolio {
+    
+    padding-top: 100px;
+}
 /*contact*/
+#contact{
+    
+    padding-top: 100px;
+}
 .row {
     margin-top: 20px;
 }
